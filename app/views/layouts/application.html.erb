@@ -28,13 +28,16 @@
                       <%= link_to "New Post", new_post_path %>
                   </li>
                   <%- if current_user %>
+                    <li>
+                      <%= link_to "Logout", destroy_user_session_path, method: :delete, data: {confirm: 'Are you sure?'} %>
+                    </li>
                   <% else %>
-                  <li>
-                    <%= link_to "Login", new_user_session_path %>
-                  </li>
-                  <li>
-                    <%= link_to "Register", new_user_registration_path %>
-                  </li>
+                    <li>
+                      <%= link_to "Login", new_user_session_path %>
+                    </li>
+                    <li>
+                      <%= link_to "Register", new_user_registration_path %>
+                    </li>
                   <% end %>
               </ul>
           </div>
@@ -45,7 +48,16 @@
 
   <!-- Page Content -->
   <div class="container">
-    <%= yield %>
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <% flash.each do |a, b| %>
+          <div class="alert alert-success"> <%= b %></div>
+        <% end %>
+        <%= yield %>
+      </div>
+    </div>
+
   </div>
   <!-- /.container -->
 
