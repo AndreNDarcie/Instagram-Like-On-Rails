@@ -3,7 +3,10 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
+# Use Devise as user system
 gem 'devise'
+# Use PaperClip as file attachment management for ActiveRecord
+gem "paperclip", "~> 5.0.0"
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
