@@ -1,4 +1,4 @@
-== Instagram Like On Rails
+# Instagram Like On Rails
 
 This project is an Instagram clone made ​​in Ruby on Rails using bootstrap, devise and paperclip.
 
