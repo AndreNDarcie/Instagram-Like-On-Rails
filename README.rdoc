@@ -10,6 +10,8 @@ This project is an Instagram clone made ​​in Ruby on Rails using bootstrap, 
 
 * Run 'bundle install'
 
-* Run 'rails server'
+* Run 'rake db:migrate'
+
+* Run 'rails s'
 
 * Enjoy
