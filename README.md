@@ -1,6 +1,7 @@
 # Instagram Like On Rails
 
-This project is an Instagram clone made ​​in Ruby on Rails using bootstrap, devise and paperclip.
+This project is an Instagram clone made ​​in Ruby on Rails using [bootstrap-sass](https://github.com/twbs/bootstrap-sass),
+[devise](https://github.com/plataformatec/devise) and [paperclip](https://github.com/thoughtbot/paperclip).
 
 * Ruby version 2.2.4
 
