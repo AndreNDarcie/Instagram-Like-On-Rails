@@ -8,10 +8,10 @@ This project is an Instagram clone made ​​in Ruby on Rails using bootstrap, 
 
 * Make sure you have installed [ImageMagick](http://www.imagemagick.org) for paperclip
 
-* Run 'bundle install'
+* Run `bundle install`
 
-* Run 'rake db:migrate'
+* Run `rake db:migrate`
 
-* Run 'rails s'
+* Run `rails s`
 
 * Enjoy
